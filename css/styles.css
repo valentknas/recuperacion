@@ -1,0 +1,95 @@
+/* Fondo y fuente general */
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0f0f0f;
+    color: #00ff9f;
+  }
+  
+  /* Encabezados */
+  h1, h2 {
+    text-align: center;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+  }
+  
+  /* Texto */
+  p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #b2fef7;
+  }
+  
+  /* Separador */
+  hr {
+    border: 1px solid #00ffcc;
+    width: 80%;
+    margin: 2rem auto;
+  }
+  
+  /* Sección principal */
+  #com-principal {
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a1a1a, #202020);
+    border: 2px solid #00ffcc;
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 700px;
+    box-shadow: 0 0 20px #00ffcc;
+  }
+  
+  /* Contenedor de botones */
+  .cont-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Botones gamer */
+  button {
+    background-color: #121212;
+    border: 2px solid #00ffcc;
+    color: #00ffcc;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #00ffcc44;
+  }
+  
+  button:hover {
+    background-color: #00ffcc;
+    color: #000;
+    box-shadow: 0 0 20px #00ffcc;
+    transform: scale(1.05);
+  }
+  
+  /* Inputs */
+  input {
+    background-color: #1a1a1a;
+    color: #00ffcc;
+    border: 2px solid #00ffcc;
+    padding: 0.6rem;
+    margin: 0.5rem auto;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  /* Resultados */
+  #resultado, #resultadoIMC, #resultadoPotencia, #resultadoHipotenusa {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #00ffaa;
+    text-shadow: 0 0 5px #00ffaa;
+  }
+  
+  /* Fuente gamer (opcional con Google Fonts) */
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');

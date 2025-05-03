@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos</title>
+    <link rel="stylesheet" href="css/styles.css">
+   
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <section id="com-principal">
+        <h1>ALGORITMOS</h1>
+        <p>Selecciona la funcion que desees ejecutar.</p>
+       
+            </section>
+            <hr>
+
+            <div class="cont-botones">
+          
+
+            </button>
+
+              </button>
+
+            </div>
+
+
+ 
+
+
+
+
+    <script src="js/main.js"></script>
+    
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparar Números</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>🔢 Comparar dos números</h2>
+    <button onclick="compararNumeros()">✅ Comparar Números</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivo o Negativo</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>🔢 ¿El número es positivo o negativo?</h2>
+    <button onclick="verificarNumero()">✅ Verificar Número</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del Círculo</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>🔵 Calcular Área y Circunferencia de un Círculo</h2>
+    <button onclick="calcularCirculo()">✅ Calcular</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del Rectángulo</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>📏 Calcular Área y Perímetro de un Rectángulo</h2>
+    <button onclick="calcularRectangulo()">✅ Calcular</button>
+</body>
+</html>
+ <body>
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Par o Impar</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>Verificar si un número es Par o Impar</h2>
+    <input id="numero" type="number" placeholder="Ingresa un número">
+    <button onclick="verificarParidad()">Verificar</button>
+    <p id="resultado"></p>
+</body>
+</html>
+
+
+ 
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>IMC</title>
+</head>
+<body>
+  <h2>Calcular IMC</h2>
+  <input id="peso" type="number" placeholder="Peso en kg">
+  <input id="altura" type="number" placeholder="Altura en m">
+  <button onclick="calcularIMC()">Calcular IMC</button>
+  <p id="resultadoIMC"></p>
+
+  <script>
+    function calcularIMC() {
+      let peso = parseFloat(document.getElementById("peso").value);
+      let altura = parseFloat(document.getElementById("altura").value);
+      if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
+        document.getElementById("resultadoIMC").innerText = "Ingresa valores válidos para peso y altura.";
+        return;
+      }
+      let imc = peso / (altura * altura);
+      document.getElementById("resultadoIMC").innerText = "Tu IMC es: " + imc.toFixed(2);
+    }
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Potencia de un Número</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>Calcular Potencia</h2>
+    <input id="base" type="number" placeholder="Ingresa la base">
+    <input id="exponente" type="number" placeholder="Ingresa el exponente">
+    <button onclick="calcularPotencia()">Calcular</button>
+    <p id="resultadoPotencia"></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcular Hipotenusa</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>Calcular Hipotenusa</h2>
+    <input id="cateto1" type="number" placeholder="Ingresa el primer cateto">
+    <input id="cateto2" type="number" placeholder="Ingresa el segundo cateto">
+    <button onclick="calcularHipotenusa()">Calcular</button>
+    <p id="resultadoHipotenusa"></p>
+</body>
+</html>
